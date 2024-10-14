@@ -23,3 +23,16 @@ function updateCountdown() {
 }
 
 updateCountdown();
+
+// //////////////////////////////////////////////////////////////
+// ///////////////////////////////////navbar r///////////////////
+// //////////////////////////////////////////////////////////////
+
+// JavaScript para el menú hamburguesa
+const mobileMenu = document.getElementById('mobile-menu');
+const navList = document.querySelector('.navbar ul');
+
+mobileMenu.addEventListener('click', () => {
+    navList.classList.toggle('active'); // Alternar la clase active para mostrar/ocultar el menú
+});
+
