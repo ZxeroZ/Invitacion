@@ -91,6 +91,10 @@
     .navbar{
         position: absolute;
     }
+
+    .header{
+        position: relative;
+    }
     .navbar ul {
         display: none;
         flex-direction: column;
@@ -136,6 +140,15 @@
         font-size: 1rem;
     }
 
+    .desplazate{
+        display: block;
+        position: absolute;
+        top: 190%;
+    }
+
+    .desplazate img{
+        width: 30px;
+    }
     /*//////////////////Contador//////////////////*/
     /*//////////////////Contador//////////////////*/
 
