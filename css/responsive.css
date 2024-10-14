@@ -144,9 +144,13 @@
     /*//////////////////Contador//////////////////*/
     /*//////////////////Contador//////////////////*/
 
+    .contador{
+        height: auto;
+    }
     .contador-ctn {
         width: calc(100% - 10px);
         margin: auto;
+        
     }
 
     .countdown {
