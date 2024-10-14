@@ -146,10 +146,13 @@
 
     .contador{
         height: auto;
+        padding: 0;
     }
+
     .contador-ctn {
-        width: calc(100% - 10px);
+        width: calc(100% - 20px);
         margin: auto;
+        border: none;
         
     }
 
