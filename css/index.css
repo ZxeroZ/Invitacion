@@ -219,9 +219,9 @@ html {
 
 .contador {
     width: 100%;
-    background-color: #8c5349;
+    background-color: #c69086;
     padding: 45px;
-
+    height: 100vh;
 }
 
 .contador-ctn {
@@ -321,5 +321,7 @@ html {
 /*///////////////////////////////////////*/
 
 .about{
-    background-color: ;
+    background-color: #f6ecea;
+    width: 100%;
+    height: 100vh;
 }
