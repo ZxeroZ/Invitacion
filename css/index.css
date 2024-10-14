@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////*/
+/*/////////////////////INICIO NAVBAR////////////////////////////*/
+/*/////////////////////////////////////////////////////////////*/
+.navbar {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    z-index: 10;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 13px;
+    position: relative;
+    margin-left: 25px;
+}
+
+.navbar a:hover {
+    color: #b79917;
+}
+
+.navbar a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #b79917;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.navbar a:hover::after {
+    transform: scaleX(1);
+}
+
+.menu-toggle {
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+/*/////////////////////FIN DEL NAVBAR////////////////////////////*/
+/*/////////////////////////////////////////////////////////////*/
+
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    animation: slideAnimation 15s infinite;
+    filter: brightness(20%);
+}
+
+.slide1 {
+    background-image: url('../img/final-v2.jpg');
+    animation-delay: 10s;
+}
+
+.slide2 {
+    background-image: url('../img/logos/rings.jpg');
+    animation-delay: 0s;
+}
+
+.slide3 {
+    background-image: url('../img/logos/boda.jpg');
+    animation-delay: 5s;
+}
+
+
+
+@keyframes slideAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    13% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    46% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*//////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////FIN SLIDER////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////*/
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 5rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+
+}
+
+.h1-m {
+    margin-left: 10px;
+    margin-right: 15px;
+    color: #d7d677;
+}
+
+.fecha h2 {
+    margin: 0 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-content img {
+    width: 100px;
+}
+
+.birds {
+    margin-top: 15px;
+}
+
+.frase {
+    max-width: 50%;
+    margin-top: 25px;
+    font-family: "Satisfy", cursive;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.fecha {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+/*/////////////////////////////////////////////////////////////**/
+/*/////////////////////////////////////////////////////////////**/
+/*/////////////////////////////////////////////////////////////**/
+
+/*////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////*/
+
+.contador {
+    width: 100%;
+    background-color: #948f36;
+
+}
+
+.contador-ctn {
+    font-family: "Poppins", sans-serif;
+    padding-top: 100px;
+    height: 100%;
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador-ctn h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.countdown {
+    display: flex;
+    gap: 10px;
+    font-size: 2em;
+    margin-top: 35px;
+    padding: 0 15px;
+}
+
+.time-unit {
+    border: solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.label {
+    font-size: 0.5em;
+    margin-top: 5px;
+    color: #f0f0f0;
+}
+
+#days {
+    color: #ffffff;
+}
+
+#hours {
+    color: #f5f5f5;
+}
+
+#minutes {
+    color: #ffffff;
+}
+
+
+.contador-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contador-content img {
+    height: 30px;
+    margin-top: 19px;
+}
+
+.btn-asistencia {
+    margin-top: 35px;
+    margin-bottom: 100px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 20px 30px;
+    border-radius: 10px;
+
+}
+
+.btn-asistencia:hover {
+    background-color: white;
+    color: #b5af47;
+    border-radius: 10px;
+}
+
+/*///////////////////////////////////////*/
+/*///////////////////////////////////////*/
+/*///////////////////////////////////////*/
