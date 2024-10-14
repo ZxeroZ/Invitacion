@@ -160,7 +160,8 @@
     }
 
     .contador-ctn h1 {
-        font-size: 1rem;
+        font-size: 1.3rem;
+        max-width: 90%;
     }
 
 
