@@ -28,7 +28,7 @@ html {
 /*/////////////////////INICIO NAVBAR////////////////////////////*/
 /*/////////////////////////////////////////////////////////////*/
 .navbar {
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -58,7 +58,7 @@ html {
 }
 
 .navbar a:hover {
-    color: #b79917;
+    color: #e3c4be;
 }
 
 .navbar a::after {
@@ -66,7 +66,7 @@ html {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #b79917;
+    background-color: #e3c4be;
     position: absolute;
     bottom: -5px;
     left: 0;
@@ -79,7 +79,7 @@ html {
 }
 
 .menu-toggle {
-    display: none; 
+    display: none;
     flex-direction: column;
     cursor: pointer;
 }
@@ -178,7 +178,7 @@ html {
 .h1-m {
     margin-left: 10px;
     margin-right: 15px;
-    color: #d7d677;
+    color: #c69086;
 }
 
 .fecha h2 {
@@ -210,22 +210,17 @@ html {
 }
 
 
-.desplazate{
-    display: none;
-}
 
 
 /*/////////////////////////////////////////////////////////////**/
 /*/////////////////////////////////////////////////////////////**/
 /*/////////////////////////////////////////////////////////////**/
 
-/*////////////////////////////////////////////////*/
-/*////////////////////////////////////////////////*/
-/*////////////////////////////////////////////////*/
 
 .contador {
     width: 100%;
-    background-color: #948f36;
+    background-color: #8c5349;
+    padding: 45px;
 
 }
 
@@ -241,11 +236,14 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 3px solid white;
+    border-radius: 0 50px 0px 50px;
 }
 
 .contador-ctn h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Dancing Script", cursive;
     font-weight: 400;
+    font-size: 2.5rem;
 }
 
 .countdown {
@@ -257,31 +255,35 @@ html {
 }
 
 .time-unit {
-    border: solid #fff;
+    border: 4px solid #e3c4be;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    background-color: #fbf6f5;
 }
 
 .label {
     font-size: 0.5em;
     margin-top: 5px;
-    color: #f0f0f0;
+    color: #a8665a;
 }
 
 #days {
-    color: #ffffff;
+    color: #a8665a;
 }
 
 #hours {
-    color: #f5f5f5;
+    color: #a8665a;
 }
 
 #minutes {
-    color: #ffffff;
+    color: #a8665a;
 }
 
+#seconds{
+    color: #a8665a;
+}
 
 .contador-content {
     width: 100%;
@@ -299,20 +301,32 @@ html {
 .btn-asistencia {
     margin-top: 35px;
     margin-bottom: 100px;
-    color: white;
+    color: #8c5349;
     text-decoration: none;
-    border: 2px solid white;
+    border: 4px solid #e3c4be;
     padding: 20px 30px;
+    background-color: #f6ecea;
     border-radius: 10px;
 
 }
 
 .btn-asistencia:hover {
-    background-color: white;
-    color: #b5af47;
+    background-color: #a8665a;
+    color: #ffffff;
     border-radius: 10px;
 }
 
 /*///////////////////////////////////////*/
 /*///////////////////////////////////////*/
 /*///////////////////////////////////////*/
+
+.about-married {
+    width: 100%;
+    height: 100%;
+}
+
+.abt-mard-ctn {
+    max-width: 1080px;
+    margin: auto;
+    height: 100%;
+}

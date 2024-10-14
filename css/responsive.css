@@ -145,7 +145,7 @@
     /*//////////////////Contador//////////////////*/
 
     .contador-ctn {
-        width: calc(100% - 40px);
+        width: calc(100% - 10px);
         margin: auto;
     }
 
