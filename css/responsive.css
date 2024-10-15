@@ -411,6 +411,7 @@
     
     .slider-txt-bot p{
        text-align: center;
+       display: none;
     }
 
 }
