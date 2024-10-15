@@ -9,11 +9,6 @@
     box-sizing: border-box;
 }
 
-body,
-html {
-    height: 100%;
-    font-family: Arial, sans-serif;
-}
 
 .hero {
     position: relative;
@@ -321,7 +316,117 @@ html {
 /*///////////////////////////////////////*/
 
 .about{
-    background-color: #f6ecea;
     width: 100%;
     height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 }
+
+.about-ctn{
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.about-ella{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-ella h1{
+    text-align: center;
+    color: #c69086;
+    font-weight: 400;
+}
+
+.about-ella h2{
+    font-weight: 600;
+    color: rgb(78, 78, 78);
+    text-align: center;
+    font-size: 1.8rem
+}
+.card-img{
+    width: 470px;
+    height: 340px;
+    text-align: start;
+    margin-top: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.about-ella p{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(51, 51, 51);
+    line-height: 30px;
+    width: 93%;
+}
+
+.text-mod {
+    color: #c0432d;
+}
+
+.ctamor {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.ctamor img {
+    width: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.about-el p{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(51, 51, 51);
+    line-height: 30px;
+    width: 93%;
+}
+
+.ctamor p {
+    color: #c0432d;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.about-separador{
+    width: 4%;
+}
+
+.about-separador h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+    margin-top: 10px;
+    color: #c69086;
+}
+
+/*//////////////*/
+.about-el{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-el h1{
+    text-align: center;
+    color: #c69086;
+    font-weight: 400;
+}
+
+.about-el h2{
+    font-weight: 600;
+    color: rgb(78, 78, 78);
+    text-align: center;
+    font-size: 1.8rem
+}
+
+
