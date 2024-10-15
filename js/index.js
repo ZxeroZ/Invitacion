@@ -36,3 +36,22 @@ mobileMenu.addEventListener('click', () => {
     navList.classList.toggle('active'); // Alternar la clase active para mostrar/ocultar el menú
 });
 
+// //////////////////////////////////////////////////////////////
+// ///////////////////////////SWIPPER JS/////////////////////////
+// //////////////////////////////////////////////////////////////
+const swiper = new Swiper('.swiper', {
+    loop: true, // Habilitar bucle
+    autoplay: {
+        delay: 3000, 
+        disableOnInteraction: false, // Permitir interacción mientras se reproduce
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true, // Permitir que se haga clic en los paginadores
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    // slidesPerView: 3, // Número de diapositivas a mostrar por vista
+});

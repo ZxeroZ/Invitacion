@@ -2,13 +2,14 @@
 @media (max-width: 400px) {
 
     /*//////////////////navbar//////////////////*/
-    .navbar{
+    .navbar {
         position: absolute;
     }
 
-    .header{
+    .header {
         position: relative;
     }
+
     .navbar ul {
         display: none;
         flex-direction: column;
@@ -54,11 +55,11 @@
         font-size: 1rem;
     }
 
-    
+
     /*//////////////////Contador//////////////////*/
     /*//////////////////Contador//////////////////*/
 
-    .contador{
+    .contador {
         height: auto;
         padding: 0;
     }
@@ -67,7 +68,7 @@
         width: calc(100% - 20px);
         margin: auto;
         border: none;
-        
+
     }
 
     .countdown {
@@ -98,32 +99,36 @@
     //////////////////////////////////////////////
     ////////////////////////////////////////////// */
 
-    .about{
+    .about {
         height: auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 
-    .about-ctn{
+    .about-ctn {
         width: calc(100% - 20px);
         margin: auto;
         flex-direction: column;
     }
 
-    .about-ella{
+    .about-ella {
         width: 100%;
     }
 
-    .about-ella h1{
+    .about-ella h1 {
         font-size: 1.3rem;
         font-weight: 400;
     }
-    .about-ella h2{
+
+    .about-ella h2 {
         font-size: 1.3rem
     }
-    .card-img{
-       width: 100%;
+
+    .card-img {
+        width: 100%;
     }
-    
-    .about-ella p{
+
+    .about-ella p {
         font-size: 13px;
         text-align: center;
     }
@@ -134,55 +139,53 @@
         margin-top: 15px;
     }
 
-    .about-separador{
+    .about-separador {
         width: 100%;
         margin: 25px 0;
         text-align: center;
     }
 
-    .about-el{
+    .about-el {
         width: 100%;
     }
 
-    .about-el h1{
+    .about-el h1 {
         font-size: 1.3rem;
         font-weight: 400;
     }
-    .about-el h2{
+
+    .about-el h2 {
         font-size: 1.3rem
     }
-    .card-img{
-       width: 100%;
+
+    .card-img {
+        width: 100%;
     }
-    
-    .about-el p{
+
+    .about-el p {
         font-size: 13px;
         text-align: center;
     }
 
-    .ctamor {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 15px;
-    }
-
-    .about-separador{
+    .about-separador {
         width: 100%;
         margin: 25px 0;
         text-align: center;
     }
-    
+
 }
 
 @media (max-width: 600px) {
+
     /*//////////////////navbar//////////////////*/
-    .navbar{
+    .navbar {
         position: absolute;
     }
 
-    .header{
+    .header {
         position: relative;
     }
+
     .navbar ul {
         display: none;
         flex-direction: column;
@@ -228,11 +231,11 @@
         font-size: 1rem;
     }
 
-    
+
     /*//////////////////Contador//////////////////*/
     /*//////////////////Contador//////////////////*/
 
-    .contador{
+    .contador {
         height: auto;
         padding: 0;
     }
@@ -241,7 +244,7 @@
         width: calc(100% - 20px);
         margin: auto;
         border: none;
-        
+
     }
 
     .countdown {
@@ -272,32 +275,35 @@
     //////////////////////////////////////////////
     ////////////////////////////////////////////// */
 
-    .about{
+    .about {
         height: auto;
+        margin: 5vh 0;
     }
 
-    .about-ctn{
+    .about-ctn {
         width: calc(100% - 20px);
         margin: auto;
         flex-direction: column;
     }
 
-    .about-ella{
+    .about-ella {
         width: 100%;
     }
 
-    .about-ella h1{
+    .about-ella h1 {
         font-size: 1.3rem;
         font-weight: 400;
     }
-    .about-ella h2{
+
+    .about-ella h2 {
         font-size: 1.3rem
     }
-    .card-img{
-       width: 100%;
+
+    .card-img {
+        width: 100%;
     }
-    
-    .about-ella p{
+
+    .about-ella p {
         font-size: 13px;
         text-align: center;
     }
@@ -308,46 +314,103 @@
         margin-top: 15px;
     }
 
-    .about-separador{
+    .ctamor img {
+        display: none;
+    }
+
+    .about-separador {
         width: 100%;
         margin: 25px 0;
         text-align: center;
     }
 
-    .about-el{
+    .about-el {
         width: 100%;
     }
 
-    .about-el h1{
+    .about-el h1 {
         font-size: 1.3rem;
         font-weight: 400;
     }
-    .about-el h2{
+
+    .about-el h2 {
         font-size: 1.3rem
     }
-    .card-img{
-       width: 100%;
+
+    .card-img {
+        width: 100%;
     }
-    
-    .about-el p{
+
+    .about-el p {
         font-size: 13px;
         text-align: center;
     }
 
-    .ctamor {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 15px;
-    }
 
-    .about-separador{
+    .about-separador {
         width: 100%;
         margin: 25px 0;
         text-align: center;
     }
+
+    /*///////////////////////////////////////////*/
+    /*//////////////////////////////////////////*/
+
+    .galeria {
+        height: auto;
+    }
+
+    .galeria-ctn {
+        width: calc(100% - 40px);
+        flex-direction: column;
+    }
+
+    .galeria-left {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video-title {
+        font-size: 30px;
+        margin-top: 55px;
+    }
+
+    .galeria-left h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .galeria-left p {
+       margin-top: 10px;
+    }
+
+    .ocdr,
+    .law,
+    .lst {
+        margin: 12px 0px;
+        text-align: center;
+    }
+
+    .galeria-right {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 35px;
+    }
     
+    .swiper_Hero {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+        margin-left: 10%;
+    }
     
+    .slider-txt-bot p{
+       text-align: center;
+    }
 
 }
-
-

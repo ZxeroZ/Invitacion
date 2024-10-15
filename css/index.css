@@ -276,7 +276,7 @@
     color: #a8665a;
 }
 
-#seconds{
+#seconds {
     color: #a8665a;
 }
 
@@ -315,7 +315,7 @@
 /*///////////////////////////////////////*/
 /*///////////////////////////////////////*/
 
-.about{
+.about {
     width: 100%;
     height: 100vh;
     font-family: "Poppins", sans-serif;
@@ -323,7 +323,7 @@
     margin-bottom: 20vh;
 }
 
-.about-ctn{
+.about-ctn {
     max-width: 1080px;
     margin: auto;
     display: flex;
@@ -331,26 +331,27 @@
     justify-content: space-between;
 }
 
-.about-ella{
+.about-ella {
     width: 48%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.about-ella h1{
+.about-ella h1 {
     text-align: center;
     color: #c69086;
     font-weight: 400;
 }
 
-.about-ella h2{
+.about-ella h2 {
     font-weight: 600;
     color: rgb(78, 78, 78);
     text-align: center;
     font-size: 1.8rem
 }
-.card-img{
+
+.card-img {
     width: 470px;
     height: 340px;
     text-align: start;
@@ -360,7 +361,7 @@
     cursor: pointer;
 }
 
-.about-ella p{
+.about-ella p {
     font-size: 15px;
     margin-top: 15px;
     color: rgb(51, 51, 51);
@@ -383,7 +384,8 @@
     margin-left: 15px;
     margin-top: 5px;
 }
-.about-el p{
+
+.about-el p {
     font-size: 15px;
     margin-top: 15px;
     color: rgb(51, 51, 51);
@@ -397,11 +399,11 @@
     font-size: 14px;
 }
 
-.about-separador{
+.about-separador {
     width: 4%;
 }
 
-.about-separador h1{
+.about-separador h1 {
     font-family: "Dancing Script", cursive;
     font-size: 3rem;
     margin-top: 10px;
@@ -409,20 +411,20 @@
 }
 
 /*//////////////*/
-.about-el{
+.about-el {
     width: 48%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.about-el h1{
+.about-el h1 {
     text-align: center;
     color: #c69086;
     font-weight: 400;
 }
 
-.about-el h2{
+.about-el h2 {
     font-weight: 600;
     color: rgb(78, 78, 78);
     text-align: center;
@@ -430,3 +432,127 @@
 }
 
 
+/* ///////////////////////////////////////////////////////////////////////
+/////////////////////////////SWIPPER//////////////////////////////////
+////////////////////////////////////////////////////////////////////// */
+.galeria {
+    width: 100%;
+    height: 100vh;
+    background-color: #2e1410;
+    font-family: "Poppins", sans-serif;
+}
+
+.galeria-ctn {
+    max-width: 1080px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.galeria-left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.video-title {
+    font-size: 38px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin: 24px 0px;
+    text-align: right;
+    color: white;
+    margin-top: 32%;
+}
+
+.galeria-left h1 {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+.galeria-left p {
+    color: rgb(202, 202, 202);
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ocdr,
+.law,
+.lst {
+    margin: 12px 0px;
+    text-align: right;
+}
+
+
+.galeria-right {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.swiper_Hero {
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.swiper_Hero img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiperjs .swiper-button-prev,
+.swiperjs .swiper-button-next{
+background-color: #16161a;
+--swiper-navigation-size: 10px;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-top: 15; 
+opacity: 0;
+--swiper-theme-color: white;
+transition: opacity .5s;
+}
+
+.swiperjs:hover .swiper-button-prev,
+.swiperjs:hover .swiper-button-next{
+opacity: 1;
+}
+
+.swiper-js .swiper-pagination{
+  --swiper-pagination-color: var(--swiper-theme-color);
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 15px;
+  --swiper-pagination-bullet-height: 15px;
+  --swiper-pagination-bullet-inactive-color: #ffffff;
+  --swiper-pagination-bullet-inactive-opacity: 5;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+}
+
+.slider-txt-bot{
+    margin-left: 5%;
+    width: 95%;
+    margin-top: 25px;
+}
+
+.slider-txt-bot p{
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 15px;
+}
