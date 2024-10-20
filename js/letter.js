@@ -17,8 +17,8 @@ const swiper = new Swiper('.swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    slidesPerView: 3, // Número de diapositivas a mostrar por vista
-    spaceBetween: 10, // Espacio entre las diapositivas
+    slidesPerView: 3,
+    spaceBetween: 10, 
 });
 
 const buttons = document.querySelectorAll('.send-button');

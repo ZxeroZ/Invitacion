@@ -137,7 +137,35 @@
         border-bottom: 1px solid #D28A55;
         padding-bottom: 45px;
     }
+
     .abt-titulo img {
-       display: none;
+        display: none;
     }
+
+    /*/////////////////////////////////////////////////////////////////////////*/
+    /*/////////////////////////////////////////////////////////////////////////*/
+    /*/////////////////////////////////////////////////////////////////////////*/
+    /*/////////////////////////////////////////////////////////////////////////*/
+
+    .galeria {  
+        margin-top: 10vh;
+        height: auto;
+        padding: 25px 0;
+    }
+    
+    .galeria-ctn {
+        max-width: calc(100% - 40px);
+        margin: auto;
+    }
+
+    .galeria-title p {
+        color: #e2e2e2;
+        font-size: 16px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-family: "Poppins", sans-serif;
+        line-height: 30px;
+    }
+    
 }
