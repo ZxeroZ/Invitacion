@@ -111,5 +111,33 @@
         font-size: 1rem;
     }
 
+    /*/////////////////////////////////////////////////////////////////////////*/
+    /*/////////////////////////////////////////////////////////////////////////*/
+    /*/////////////////////////////////////////////////////////////////////////*/
+    /*/////////////////////////////////////////////////////////////////////////*/
 
+    .about-ctn {
+        width: calc(100% - 40px);
+        margin: auto;
+    }
+
+    .about-cards {
+        display: flex;
+        margin-top: 55px;
+        flex-direction: column;
+    }
+
+    .about-card-ctn {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .--mod {
+        border-right: none;
+        border-bottom: 1px solid #D28A55;
+        padding-bottom: 45px;
+    }
+    .abt-titulo img {
+       display: none;
+    }
 }

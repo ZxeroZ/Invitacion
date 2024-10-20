@@ -357,7 +357,7 @@
 .about {
     width: 100%;
     margin-top: 10vh;
-    height: 90vh;
+    height: auto;
     text-align: center;
 }
 
