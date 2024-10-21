@@ -893,7 +893,6 @@
     .galeria-ctn {
         max-width: calc(100% - 60px);
         margin: auto;
-        margin-top: 10vh;
         height: auto;
     }
     
