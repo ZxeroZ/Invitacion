@@ -2,18 +2,22 @@
 
     .hero-contenedor {
         justify-content: center;
+        align-items: center;
     }
 
+    .hero {
+        height: 50vh;
+    }
+
+
     .circle-wrapper {
-        background-color: rgba(123, 32, 58, 0);
-        border: 5px solid rgba(123, 32, 58, 0);
-        width: 370px;
-        height: 370px;
+        display: none;
     }
 
     .nombres {
         font-size: 1rem;
         letter-spacing: 1.3px;
+        margin-top: 11vh;
     }
 
     .nombres h2 {
@@ -146,12 +150,12 @@
     /*/////////////////////////////////////////////////////////////////////////*/
     /*/////////////////////////////////////////////////////////////////////////*/
 
-    .galeria {  
+    .galeria {
         margin-top: 10vh;
         height: auto;
         padding: 25px 0;
     }
-    
+
     .galeria-ctn {
         max-width: calc(100% - 40px);
         margin: auto;
@@ -166,7 +170,7 @@
         font-family: "Poppins", sans-serif;
         line-height: 30px;
     }
-    
+
 }
 
 
@@ -322,12 +326,12 @@
     /*/////////////////////////////////////////////////////////////////////////*/
     /*/////////////////////////////////////////////////////////////////////////*/
 
-    .galeria {  
+    .galeria {
         margin-top: 10vh;
         height: auto;
         padding: 25px 0;
     }
-    
+
     .galeria-ctn {
         max-width: calc(100% - 40px);
         margin: auto;
