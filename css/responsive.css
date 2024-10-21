@@ -871,4 +871,55 @@
 
 
 @media (max-width: 1024px) {
+
+    .main-ctn {
+        max-width: calc(100% - 50px);
+    }
+
+    .main-r-ctn {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .main-left {
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .galeria{
+        height: auto;
+        padding-bottom: 10vh;
+    }
+    .galeria-ctn {
+        max-width: calc(100% - 60px);
+        margin: auto;
+        margin-top: 10vh;
+        height: auto;
+    }
+    
+    .conf-asis {
+        width: 100%;
+        margin-top: 15vh;
+    }
+    
+    .conf-asis-ctn {
+        max-width: calc(100% - 60px);
+        margin: auto;
+        height: 100%;
+        display: flex;
+    }
+
+
+    .--ctn-foot{
+        display: none;
+    }
+
+    .footer-container{
+        max-width: calc(100% - 60px);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; /* Flex-wrap permite que los elementos se apilen en pantallas pequeñas */
+    }
 }
