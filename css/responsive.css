@@ -250,14 +250,31 @@
 
 
 
-    .footer{
-        margin-top: 5vh;
+    .footer-container {
+        flex-direction: column; /* Los elementos se apilan verticalmente */
+        align-items: center; /* Centra los elementos */
+        text-align: center; /* Centra el texto */
     }
-    
-    .footer-container{
-        width: calc(100% - 60px);
-        margin: auto;
-        flex-wrap: wrap;
+
+    .content, .welcome {
+        flex-basis: 100%; /* Ocupa el 100% del ancho */
+        margin-bottom: 20px; /* Espacio entre las secciones en pantallas pequeñas */
+    }
+
+    .footer-container h2 {
+        font-size: 18px; /* Ajusta el tamaño del título en pantallas pequeñas */
+    }
+
+    .content h1, .welcome h2 {
+        font-size: 18px; /* Ajusta el tamaño de los títulos */
+    }
+
+    .footer-container span, .content p, .welcome p {
+        font-size: 14px; /* Ajusta el tamaño del texto */
+    }
+
+    .content a {
+        font-size: 14px; /* Ajusta el tamaño de los enlaces */
     }
 }
 
