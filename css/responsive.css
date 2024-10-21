@@ -17,7 +17,7 @@
     .nombres {
         font-size: 1rem;
         letter-spacing: 1.3px;
-        margin-top: 11vh;
+        margin-top: 18vh;
     }
 
     .nombres h2 {
@@ -99,8 +99,9 @@
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        height: 100vh;
+        height: auto;
         margin-top: 5vh;
+        padding: 15px 0;
     }
 
     .contador-ctn {
@@ -280,8 +281,9 @@
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        height: 100vh;
+        height: auto;
         margin-top: 5vh;
+        padding: 15px 0;
     }
 
     .contador-ctn {
