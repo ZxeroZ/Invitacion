@@ -84,12 +84,12 @@
     }
 
     .contenido h2 {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         margin: 10px 0;
     }
 
     .contenido {
-        max-width: calc(100% - 40px);
+        max-width: calc(100% - 60px);
         margin: auto;
     }
 
@@ -101,6 +101,7 @@
         background-attachment: scroll;
         height: auto;
         margin-top: 5vh;
+        padding: 5vh 0;
     }
 
     .contador-ctn {
@@ -126,8 +127,21 @@
     /*/////////////////////////////////////////////////////////////////////////*/
 
     .about-ctn {
-        width: calc(100% - 40px);
+        width: calc(100% - 60px);
         margin: auto;
+    }
+
+    
+    .linea {
+        height: 50px;
+    }
+    
+    .linea-l {
+        height: 50px;
+    }
+    
+    .about-logo h2{
+        font-size: 1.5rem;
     }
 
     .about-cards {
@@ -151,6 +165,25 @@
         display: none;
     }
 
+
+    .abt-titulo h1 {
+        font-size: 2.5rem;
+    }
+    .about-card-ctn h2 {
+        font-size: 1rem;
+    }
+
+    .about h3 {
+        margin-top: 25px;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 1px;
+        font-weight: 500;
+        border-top: 3px solid #440d1b;
+        border-bottom: 3px solid #440d1b;
+        padding: 10px 15px;
+        font-size: 1.2rem;
+    }
+    
     /*/////////////////////////////////////////////////////////////////////////*/
     /*/////////////////////////////////////////////////////////////////////////*/
     /*/////////////////////////////////////////////////////////////////////////*/
@@ -163,7 +196,7 @@
     }
 
     .galeria-ctn {
-        max-width: calc(100% - 40px);
+        max-width: calc(100% - 60px);
         margin: auto;
     }
 
@@ -187,7 +220,7 @@
     }
 
     .conf-asis-ctn {
-        max-width: calc(100% - 40px);
+        max-width: calc(100% - 60px);
         margin: auto;
         flex-direction: column;
         align-items: center;
@@ -227,15 +260,22 @@
     }
 
 
-
-
-
-
-
     button {
         margin: 15px 0;
     }
 
+
+
+
+    .footer{
+        margin-top: 5vh;
+    }
+    
+    .footer-container{
+        width: calc(100% - 60px);
+        margin: auto;
+        flex-wrap: wrap;
+    }
 
 }
 
@@ -511,4 +551,16 @@
     }
 
 
+
+
+    .footer{
+        margin-top: 5vh;
+    }
+    
+    .footer-container{
+        width: calc(100% - 60px);
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    
 }
