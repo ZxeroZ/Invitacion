@@ -112,6 +112,11 @@
 
     }
 
+    .ctn-asis {
+        width: 100%;
+        margin-top: 5vh;
+    }
+    
     .ctn-asis a {
         font-size: 1rem;
     }
@@ -173,6 +178,66 @@
         line-height: 30px;
     }
 
+     /*/////////////////////////////////////////////////////////////////////////*/
+    /*/////////////////////////////////////////////////////////////////////////*/
+    /*/////////////////////////////////////////////////////////////////////////*/
+    /*/////////////////////////////////////////////////////////////////////////*/
+
+    .conf-asis {
+        margin-top: 10vh;
+    }
+    
+    .conf-asis-ctn {
+        max-width: calc(100% - 40px);
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .conf-left {
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+    
+
+    .conf-asis h1{
+        width: 100%;
+    }
+    
+    
+    .conf-asis p {
+        font-size: 15px;
+        margin: auto;
+        width: 90%;
+        margin-bottom: 25px;
+        line-height: 30px;
+    }
+    
+    .conf-right{
+        width: 100%;
+    }
+    
+    .confirmacion {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    
+   
+    
+    
+    
+    button {
+        margin: 15px 0;
+    }
+    
+   
 }
 
 
@@ -199,7 +264,7 @@
     .nombres {
         font-size: 1rem;
         letter-spacing: 1.3px;
-        margin-top: 11vh;
+        margin-top: 18vh;
     }
 
     .nombres h2 {
